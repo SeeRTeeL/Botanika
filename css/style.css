@@ -1,0 +1,185 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #ae7c78;
+}
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+.site-nav {
+}
+.logo {
+}
+.nav-list {
+}
+.nav-list-item a {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
+	text-decoration: none;
+	color: #ae7c78;
+}
+.visually-hidden {
+}
+.main {
+}
+.title-header {
+	font-family: Playfair Display, "Times New Roman", Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 44px;
+	line-height: 59px;
+}
+.button {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #d89999;
+}
+.prod-list {
+}
+.prod-list-item {
+}
+.benefits {
+}
+.benefits-list {
+}
+.benefits-list-item {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.benefits-list-item h5 {
+	font-size: 16px;
+	font-weight: 500;
+}
+.popular {
+}
+.section-title {
+	font-family: Playfair Display, "Times New Roman", Times, serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.02em;
+}
+.cards-list {
+}
+.card {
+	font-size: 16px;
+	line-height: 20px;
+}
+.card-title,
+.card-price {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+}
+.card-description {
+}
+.card-size {
+}
+.slide-control {
+}
+.catalog {
+}
+.catalog-cards-list {
+}
+.catalog-card {
+}
+.catalog-card a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.catalog_item {
+}
+.catalog-card-title {
+}
+.catalog-card-text {
+	font-size: 16px;
+	line-height: 20px;
+}
+.sales {
+	color: #ffffff;
+}
+.sales-title {
+	font-family: Playfair Display, "Times New Roman", Times, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 44px;
+	line-height: 59px;
+	letter-spacing: 0.02em;
+}
+.sales-text {
+}
+.sales-image {
+}
+.steps {
+}
+.steps-list {
+}
+.steps-list-item {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.steps-list-item h5 {
+	font-size: 16px;
+	font-weight: 500;
+}
+.news {
+}
+.social-list {
+}
+.social-list-item {
+}
+.instagram {
+}
+.facebook {
+}
+.twitter {
+}
+.reviews {
+}
+.reviews-list {
+}
+.reviews-list-item {
+}
+.review,
+.contacts {
+	font-size: 16px;
+	line-height: 20px;
+}
+.footer-logo {
+}
+.footer-nav-list {
+	background-color: #ae7c78;
+}
+
+.footer-nav-list a {
+	color: #ffffff;
+}
+.footer-nav-list-item {
+}
+.footer-social-list {
+}
+.footer-social-list-item {
+}
