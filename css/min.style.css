@@ -1,4 +1,4 @@
-Minified CSS Source map Restructure Beautify *,
+*,
 ::after,
 ::before {
 	box-sizing: border-box;
@@ -327,54 +327,153 @@ body {
 }
 .news {
 	display: grid;
-	grid-template-columns: 487px 285px 387px;
-	grid-template-rows: 220px 220px;
-	gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 166px 167px 127px;
+	column-gap: 20px;
+	margin-top: 83px;
+	margin-bottom: 80px;
 }
 .news-title {
 	text-align: start;
 	grid-column: 1/2;
 	grid-row: 1/2;
+	margin: auto 0 0;
 }
 .news-text {
 	width: 387px;
+	height: 87px;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 .social-list {
+	grid-column: 1/2;
+	grid-row: 3/4;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: flex-start;
+}
+.social-item {
 	list-style: none;
+	margin-right: 20px;
 }
 .news-peonies,
 .news-roses {
 	grid-column: 2/3;
-	grid-row: 1/2;
+	grid-row: 1/3;
+	margin-left: auto;
 }
 .news-roses {
-	grid-row: 2/3;
+	grid-row: 2/4;
 	margin-top: auto;
 }
 .news-carnations {
 	grid-column: 3/4;
-	grid-row: 1/3;
+	grid-row: 1/4;
+}
+.reviews {
+	border: 1px solid #ae7c78;
+	min-height: 306px;
+	min-width: 1200px;
+	margin-bottom: 80px;
 }
 .reviews-list {
+	padding: 0;
 	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
-.contacts,
 .review {
 	font-size: 16px;
 	line-height: 20px;
+	width: 300px;
+	text-align: center;
+}
+.map {
+	width: 100%;
+	height: 100%;
+}
+.contacts {
+	font-size: 16px;
+	line-height: 20px;
+	position: relative;
+}
+.contacts-card {
+	position: absolute;
+	top: 52px;
+	left: calc(100px + 120px);
+	width: 386px;
+	height: 520px;
+	padding: 40px 35px;
+	background-color: #f7fafc;
+	box-shadow: 0 4px 40px rgba(217, 217, 217, 0.3);
+	border-radius: 12px;
+}
+.contacts-card dd {
+	font-weight: 500;
+	margin-left: 0;
+}
+.contacts-title {
+	font-family: Playfair Display, "Times New Roman", Times, serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.02em;
+	margin-top: 0;
+}
+.come-us {
+	margin-bottom: 21.08px;
+}
+.call-us,
+.work-time {
+	margin-top: 31.96px;
+	margin-bottom: 13.68px;
+}
+.call-us {
+	margin-top: 29.6px;
+}
+.write-us {
+	margin-top: 34.6px;
+	margin-bottom: 17.08px;
 }
 .contacts a,
 .nav-list-item a {
 	text-decoration: none;
 	color: #ae7c78;
 }
+.footer-navigation {
+	background-color: #ae7c78;
+	padding-top: 24px;
+	padding-bottom: 40px;
+	margin-top: -5px;
+}
+.footer-nav {
+	display: flex;
+	padding: 0;
+	margin: auto 0;
+}
+.footer-logo {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 103px;
+}
 .footer-nav-list {
 	list-style: none;
-	background-color: #ae7c78;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-nav-list-item:not(:last-child) {
+	margin-right: 68px;
 }
 .footer-nav-list a {
 	color: #fff;
 }
 .footer-social-list {
 	list-style: none;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.footer-social-item {
+	fill: #fff;
 }
